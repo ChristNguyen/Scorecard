@@ -1,5 +1,6 @@
 # Scorecard
 Scorecard and credit risk development for many method
+Some feature need to focus: Otimal bining, automatic bining, unbalanced data, Bootsted tree method, logicstic model, reject reference.
 
 
 **Giá trị KS	Khả năng phân loại của mô hình**
@@ -36,6 +37,7 @@ Gini coefficient	Gini
 Kolmogorov-Smirnov"	KS
 "Chỉ số ổn định của mô hình
 (Population Stability Index)"	PSI
+
 ![image](https://user-images.githubusercontent.com/64264887/139172594-c2328bf7-6d4d-4abf-beb6-75bf26a7db03.png)
 
 
