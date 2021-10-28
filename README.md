@@ -45,5 +45,8 @@ Kolmogorov-Smirnov"	KS
 	A0=[600-20/ln(2)]/ln(50)
 	A1=20/ln(2)
 2. By default, missing values are transformed to 0. To apply the empirical transformation you have to set metric_special="empirical" and pass this information via the parameter binning_transform_params of the BinningProcess class. 
+for more information: check out here: https://documentation.sas.com/doc/en/emref/14.3/n181vl3wdwn89mn1pfpqm3w6oaz5.htm
+
+3. check Repo of optbining library  here https://github.com/guillermo-navas-palencia/optbinning or oficial docs here: http://gnpalencia.org/optbinning/
 
 ![image](https://user-images.githubusercontent.com/64264887/139182416-29f3697a-01e5-43d4-9462-dc3fcf6cd363.png)
