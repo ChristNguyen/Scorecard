@@ -40,4 +40,10 @@ Kolmogorov-Smirnov"	KS
 
 ![image](https://user-images.githubusercontent.com/64264887/139172594-c2328bf7-6d4d-4abf-beb6-75bf26a7db03.png)
 
+1. How exactly are the scorecard points calculated in the case of a binary target? and then converted into points based on the formula (scale mothod is PDO): 
+	Score=A0+A1*ln(odd)
+	A0=[600-20/ln(2)]/ln(50)
+	A1=20/ln(2)
+2. By default, missing values are transformed to 0. To apply the empirical transformation you have to set metric_special="empirical" and pass this information via the parameter binning_transform_params of the BinningProcess class. 
 
+![image](https://user-images.githubusercontent.com/64264887/139182416-29f3697a-01e5-43d4-9462-dc3fcf6cd363.png)
